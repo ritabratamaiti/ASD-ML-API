@@ -67,5 +67,10 @@ dill_file.close()
 
 #retrainig and pickling the classifier
 clf.fit(X, Y)
-joblib.dump(clf, 'clf.pkl') 
+dill_file = open("clf", "wb")
+dill_file.write(dill.dumps(clf))
+dill_file.close()
 
+dill_file = open("f", "wb")
+dill_file.write(dill.dumps("0,0,0,0,0,0,0,1,0,1,2,30.0,m,White-European,no,no,Ireland,no,Self,NO"))
+dill_file.close()

@@ -6,11 +6,9 @@ Created on Thu Apr  5 16:30:21 2018
 """
 import dill
 import pandas as pd  
-from sklearn.externals import joblib
 
 def predictor():
-    clf = joblib.load('clf.pkl')
-    
+ 
     def fopen(str1, str2):
         dill_file = open(str1, str2)
         d = dill.load(dill_file)
@@ -20,6 +18,7 @@ def predictor():
     d = fopen("d", "rb")
     df = fopen("df", "rb")
     f = fopen("f", "rb")
+    clf = fopen("clf", "rb")
     f = "0,"+f
     l = [int(e) if e.isdigit() else e for e in f.split(',')]
     df.loc[0] = l
@@ -36,4 +35,4 @@ def predictor():
     file.close()
     return 0
 
-
+predictor()
