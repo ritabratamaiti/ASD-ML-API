@@ -1,4 +1,4 @@
-q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,score,age,gender,race,born with jaundice,family member with pdd,place of residence ,used screening before,Who is taking the test,Has Autism?
+q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,score,age,gender,race,bornwithjaundice,familymemberwithpdd,placeofresidence,usedscreeningbefore,Whoistakingthetest,HasAutism?
 1,1,0,1,0,0,0,1,0,1,5,24,m,Latino,no,yes,Brazil,no,Self,NO
 1,1,0,1,1,0,1,1,1,1,8,27,m,Latino,yes,yes,Spain,no,Parent,YES
 1,1,0,1,0,0,1,1,0,1,6,35,f,White-European,no,yes,United States,no,Self,NO

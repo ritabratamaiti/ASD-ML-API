@@ -35,4 +35,4 @@ def predictor():
     file.close()
     return 0
 
-predictor()
+

@@ -54,6 +54,8 @@ for train_index, test_index in kf.split(X):
     clf.fit(X_test, Y_test)  
     print(clf.score(X_train, Y_train))  
 
+
+
 #pickling the dictionary d
 dill_file = open("d", "wb")
 dill_file.write(dill.dumps(d))
