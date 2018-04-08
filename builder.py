@@ -7,15 +7,12 @@ Created on Fri Feb  9 02:56:19 2018
 @Dataset: Adult Autism Data
 @Dataset URL: https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult
 """
-#df.apply(lambda x: d[x.name].transform(x))
-#Use that in API
 
 import pandas as pd   
 from sklearn.naive_bayes import BernoulliNB
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import KFold
 from collections import defaultdict
-from sklearn.externals import joblib
 import dill
 
 
@@ -53,8 +50,6 @@ for train_index, test_index in kf.split(X):
     Y_train, Y_test = Y[train_index], Y[test_index]
     clf.fit(X_test, Y_test)  
     print(clf.score(X_train, Y_train))  
-
-
 
 #pickling the dictionary d
 dill_file = open("d", "wb")
