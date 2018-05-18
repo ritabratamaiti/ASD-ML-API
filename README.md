@@ -1,4 +1,4 @@
-# Autism-detect
+# Autism detection API
 Hi!
 
 I am Ritabrata Maiti, the creator of the Autism Detection API. Find me on LinkedIn here: linkedin.com/in/ritabratamaiti/
