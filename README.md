@@ -12,7 +12,7 @@ ASD refers to Autism Spectrum Disorder
 
 ## API Demo:
 Visit: http://ritabratamaiti.pythonanywhere.com/query?ip=0,0,0,0,0,0,0,1,0,1,2,30.0,m,White-European,no,no,Ireland,no,Self,NO
-You will get a value of 0 on your browser, indicating that the person does not suffer from ASD. The values that are assigned to ip: (0,0,0,0,0,0,0,1,0,1,2,30.0,m,White-European,no,no,Ireland,no,Self,NO) indicate the various features as per [dataset description](../Autism-Detection-API/Manual_and_description/Dataset_Description.pdf). You are free to change the API parameters to explore different results. 1 = ASD present; 0 = ASD absent
+You will get a value of 0 on your browser, indicating that the person does not suffer from ASD. The values that are assigned to ip: (0,0,0,0,0,0,0,1,0,1,2,30.0,m,White-European,no,no,Ireland,no,Self,NO) indicate the various features as per [dataset description](/Autism-Detection-API/Manual_and_description/Dataset_Description.pdf). You are free to change the API parameters to explore different results. 1 = ASD present; 0 = ASD absent
 
 ## Application Demo:
 Using the same API, I have built an android application which serves as an user friendly tool that can be used by caretakers, doctors and patients to determine an ASD case. [The application can be found here.](../Autism-Detection-API/Android App Based on API/)
