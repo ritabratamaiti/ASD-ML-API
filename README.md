@@ -15,7 +15,7 @@ Visit: http://ritabratamaiti.pythonanywhere.com/query?ip=0,0,0,0,0,0,0,1,0,1,2,3
 You will get a value of 0 on your browser, indicating that the person does not suffer from ASD. The values that are assigned to ip: (0,0,0,0,0,0,0,1,0,1,2,30.0,m,White-European,no,no,Ireland,no,Self,NO) indicate the various features as per [dataset description](Manual_and_description/Dataset_Description.pdf). You are free to change the API parameters to explore different results. 1 = ASD present; 0 = ASD absent
 
 ## Application Demo:
-Using the same API, I have built an android application which serves as an user friendly tool that can be used by caretakers, doctors and patients to determine an ASD case. [The application can be found here.](Android App Based on API/)
+Using the same API, I have built an android application which serves as an user friendly tool that can be used by caretakers, doctors and patients to determine an ASD case. [The application can be found here](/Android App Based on API)
 Note: This app was built on [Thunkable](https://thunkable.com/); due to the Hybrid nature of the app, the google form in the initial screen may load slowly(because of embedded webviewer). Your patience is appreciated ^_^
 
 The first 2 goals are achieved via the [builder.py](builder.py) script, which cleans the datasets, performs label encoding and finds the best-fitted classifier pipeline using genetic algorithms from the TPOT library. Furthermore, the builder script produces the files d, df, clf, and f. 
