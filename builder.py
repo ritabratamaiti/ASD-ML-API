@@ -14,21 +14,20 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import KFold
 from collections import defaultdict
 import dill
-
+from tpot import TPOTClassifier
 
 d = defaultdict(LabelEncoder)
 X = []
 Y = []
 
 #Used initially to create out.csv
-
 df = pd.read_csv('newdata.csv', na_values = {'?'})
 df = df.fillna("0") 
 df.to_csv("out.csv", sep=',')
 
 
-#save a csv copy
 df = pd.read_csv('out.csv')
+#save a csv copy
 df2 = df
 
 #Labelencoding the table
@@ -41,15 +40,19 @@ Y = df[:, df.shape[1]-1]
 
 #Naive Bayes Classifier
 clf = BernoulliNB()
+tpot = TPOTClassifier(generations=5, population_size=50, verbosity=2)
+
 
 #Testing Classifier using KFold splitting
-kf = KFold(n_splits=10)
+kf = KFold(n_splits=5)
 kf.get_n_splits(X)
 for train_index, test_index in kf.split(X):
     X_train, X_test = X[train_index], X[test_index]
     Y_train, Y_test = Y[train_index], Y[test_index]
-    clf.fit(X_test, Y_test)  
-    print(clf.score(X_train, Y_train))  
+    clf.fit(X_train, Y_train)  
+    tpot.fit(X_train, Y_train)
+    clf2 = tpot.fitted_pipeline_
+    print(clf.score(X_test, Y_test),',',clf2.score(X_test, Y_test))  
 
 #pickling the dictionary d
 dill_file = open("d", "wb")
