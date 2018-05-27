@@ -3,7 +3,10 @@ Hi!
 
 I am Ritabrata Maiti, the creator of the Autism Detection API. [Find me on LinkedIn here](https://www.linkedin.com/in/ritabratamaiti/)
 
-ASD refers to Autism Spectrum Disorder
+This project uses the pythonanywhere hosting service to host the API, and run the machine learning model in the cloud. The free tier allows you to host only one web-app (such as a python API), at any given time. However, upto 20 web-apps (APIs) can be hosted by upgrading to the paid tiers. If you consider upgradation, follow this link: https://www.pythonanywhere.com/?affiliate_id=003915da 
+Do note that this is an affiliate link =)
+
+Note: ASD refers to Autism Spectrum Disorder
 
 ## API Demo:
 Visit: http://ritabratamaiti.pythonanywhere.com/query?ip=0,0,0,0,0,0,0,1,0,1,2,30.0,m,White-European,no,no,Ireland,no,Self,NO
@@ -36,9 +39,9 @@ The final goal, implementing the flask API, is achieved by the [helper](helper.p
 
 ### Do note that you do not need to install flask if you plan on only deploying the project to the cloud, and don't plan on running it locally.
 
-In order to deploy our flask app to the cloud, we use a service called pythonanywhere. At its free tier, it allows one python web app per account. 
+In order to deploy our flask app to the cloud, we use a service called pythonanywhere. At its free tier, it allows one python web app per account. For hosting upto 20 Python web apps or APIs, upgrade your acount here: https://www.pythonanywhere.com/?affiliate_id=003915da
 
-In the files-tab create a new directory, and upload the files d, df, clf, f as well as the API and the helper scripts. Then create a new web application in the web apps tab and create a new virtualenv as well, and link it to the web app. My instructions are vague, and I highly recommend you check this [official guide](https://help.pythonanywhere.com/pages/Flask/) 
+In the files-tab create a new directory, and upload the files d, df, clf, f as well as the API and the helper scripts. Then create a new web application in the web apps tab and create a new virtualenv as well, and link it to the web app. My instructions are compact, and I highly recommend you check this [official guide](https://help.pythonanywhere.com/pages/Flask/) 
 
 ### Note: Before you deploy your web app, go to the directory: /home/"username"/.virtualenvs/"virtualenvname"/bin and delete the file: no-global-site-packages.txt 
 
