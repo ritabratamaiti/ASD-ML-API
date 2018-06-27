@@ -45,8 +45,6 @@ In the files-tab create a new directory, and upload the files d, df, clf, f as w
 
 ### Note: Before you deploy your web app, go to the directory: /home/"username"/.virtualenvs/"virtualenvname"/bin and delete the file: no-global-site-packages.txt 
 
-<<<<<<< HEAD
 This allows the web app to use external libraries outside the vitualenv, and proceeding without the above modifications causes a glitch/error.
 =======
-This allows the web app to use external libraries outside the vitualenv, and proceeding without the above modifications causes a glitch/error.
->>>>>>> 4a0b51a775a7d3cedf2dcced1aec66f8ca4121a1
+
