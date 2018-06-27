@@ -12,8 +12,11 @@ This Android App is used to demonstrate RapidML's use cases. It was created usin
 3. Navigate to the directory where the APK file was transferred to, but on your Android device.
 4. Click on the APK file. Now, if you haven't installed a file from external sources before, you may have to turn on your device's developer mode
 5. After this, the APK file will install.
+<img src="AppIcon.png" alt="App Icon" width="200px"/>
 6. Open the app, and then fill in the required questionnaire fields.
+<img src="Questions.png" alt="Questionnaire" width="200px"/>
 7. The app will then use RapidML's cloud machine learning to perform a prediction and produce a test diagnosis.
+<img src="Results.png" alt="Results" width="200px"/>
 
 *Note that this application is used only for showcasing RapidML's potential and is **not to be used in any manner for real medical diagnosis. For actual ASD (Autism Spectrum Disorder) diagnosis, consult a medical professional.**
 
@@ -34,11 +37,11 @@ Using the same API, I have built an android application which serves as an user 
 Note: This app was built on [Thunkable](https://thunkable.com/); due to the Hybrid nature of the app, the google form in the initial screen may load slowly(because of embedded webviewer). Your patience is appreciated ^_^
 
 ## This project has 3 goals:
-1. To find out the best machine learning pipeline for predicting ASD cases using genetic algorithms, via the TPOT library. (Classification Problem)
+1. To find out the best machine learning pipeline for predicting ASD cases using genetic algorithms, via the RapidML library. (Classification Problem)
 2. Compare the accuracy of the accuracy of the determined pipeline, with a standard Naive-Bayes classifier.
 3. Saving the classifier as an external file, and use this file in a Flask API to make predictions in the cloud.
 
-The first 2 goals are achieved via the [Builder_Script.py](Builder_Script.py), which cleans the datasets, performs label encoding and finds the best-fitted classifier pipeline using genetic algorithms from the TPOT library. Furthermore, the builder script produces the files d, df, clf, and f. 
+The first 2 goals are achieved via the [Builder_Script.py](Builder_Script.py), which cleans the datasets, performs label encoding and finds the best-fitted classifier pipeline using genetic algorithms from the TPOT library. Furthermore, the builder script produces the files d, df, clf,dt and f. 
 * d: This file contains the pickled dictionary used to label-encode the database.
 * df: The file contains the pickled skeletal dictionary of the original database.
 * clf: This file contains the pickled classifier pipeline that has the highest accuracy, determined via genetic algorithms.
