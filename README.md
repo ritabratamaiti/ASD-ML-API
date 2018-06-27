@@ -1,9 +1,9 @@
 # ASD_Detect
-This Android App is used to demonstrate RapidML's use cases. It was created using the RapidML and Flask Python libraries for web API creation, and [Thunkable](https://thunkable.com/#/) for android app creation.
+This Android App is used to demonstrate RapidML's use cases. It was created using the RapidML (built on top of Scikit-Learn, Flask and TPOT among others) Python library for web API creation, and [Thunkable](https://thunkable.com/#/) for android app creation.
 
  
 
-![RapidML logo](logo.png)  | ![Flask Logo](https://cdn.freebiesupply.com/logos/thumbs/2x/flask-logo.png)<!-- .element height="50%" width="50%" --> 
+![RapidML logo](logo.png)  | ![Scikit-learn Logo](https://github.com/scikit-learn/scikit-learn/blob/master/doc/logos/scikit-learn-logo-notext.png)<!-- .element height="50%" width="50%" --> 
 ------------- | --- 
 
 # How to use:
