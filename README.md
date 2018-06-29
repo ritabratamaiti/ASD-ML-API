@@ -1,5 +1,5 @@
 # ASD_Detect
-This Android App is used to demonstrate RapidML's use cases. It was created using the RapidML (built on top of Scikit-Learn, Flask and TPOT among others) Python library for web API creation, and [Thunkable](https://thunkable.com/#/) for android app creation.
+This Android App is used to demonstrate RapidML's use cases. It was created using the [RapidML](https://github.com/ritabratamaiti/RapidML) Python library for web API creation, and [Thunkable](https://thunkable.com/#/) for android app creation.
 
  
 
@@ -51,7 +51,7 @@ The first 2 goals are achieved via the [Builder_Script.py](Builder_Script.py), w
 The final goal, implementing the flask API, is achieved by the [helper](ASDapi/helper.py) and [API](ASDapi/API.py) scripts. The helper script reads the files created by the builder and uses the saved models to predict an output, from the input obtained from the API request. The API script handles the actual requests and calls the helper script to predict and return an output.
 
 ## In order to build the project on your own, you require:
-* [The RapidML library]
+* [The RapidML library](https://github.com/ritabratamaiti/RapidML)
 * [A Python 3.6 installation](https://www.python.org/downloads/)
 * [The latest scikit learn installation](http://scikit-learn.org/stable/install.html)
 * [The latest TPOT installation](https://epistasislab.github.io/tpot/installing/)
