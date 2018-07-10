@@ -66,3 +66,4 @@ In the files-tab create a new directory, and upload the files d, df, clf, f as w
 
 *This allows the web app to use external libraries outside the vitualenv, and proceeding without the above modifications causes a glitch/error.*
 
+![bitmoji](https://render.bitstrips.com/v2/cpanel/5cdb5977-b8b9-4261-9f98-deef7c1bedee-9170ecb6-6302-4139-8947-7b7c01451fda-v1.png?transparent=1&palette=1)
