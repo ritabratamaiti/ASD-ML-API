@@ -1,6 +1,8 @@
 # ASD_Detect
 This Android App is used to demonstrate RapidML's use cases. It was created using the [RapidML](https://github.com/ritabratamaiti/RapidML) Python library for web API creation, and [Thunkable](https://thunkable.com/#/) for android app creation.
 
+Cite Us! [![DOI](https://zenodo.org/badge/127626092.svg)](https://zenodo.org/badge/latestdoi/127626092)
+
  
 
 ![RapidML logo](logo.png)  | ![Scikit-learn Logo](https://github.com/scikit-learn/scikit-learn/blob/master/doc/logos/scikit-learn-logo-notext.png)<!-- .element height="50%" width="50%" --> 
