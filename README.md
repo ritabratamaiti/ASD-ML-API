@@ -22,10 +22,10 @@ Cite Us! [![DOI](https://zenodo.org/badge/127626092.svg)](https://zenodo.org/bad
 
 *Note that this application is used only for showcasing RapidML's potential and is **not to be used in any manner for real medical diagnosis. For actual ASD (Autism Spectrum Disorder) diagnosis, consult a medical professional.**
 
-# Autism detection API
+# ASD prediction API
 Hi!
 
-I am Ritabrata Maiti, the creator of the Autism Detection API. [Find me on LinkedIn here](https://www.linkedin.com/in/ritabratamaiti/)
+I am Ritabrata Maiti, the creator of the ASD ML API. [Find me on LinkedIn here](https://www.linkedin.com/in/ritabratamaiti/)
 
 This project uses the pythonanywhere hosting service to host the API, and run the machine learning model in the cloud. The free tier allows you to host only one web-app (such as a python API), at any given time. However, upto 20 web-apps (APIs) can be hosted by upgrading to the paid tiers. If you consider upgradation, follow this link: https://www.pythonanywhere.com/?affiliate_id=003915da 
 Do note that this is an affiliate link =)
